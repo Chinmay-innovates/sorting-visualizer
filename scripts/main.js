@@ -1,13 +1,4 @@
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    
-    *****************
-*/
 
-/*
-Variable naming convention: <object>_<action>_<objectname>; Example -> Button_click_b1;
-*/
 
 //Variables (BE CAREFUL THESE MIGHT BE USED IN OTHER JS FILES TOO)
 var inp_as=document.getElementById('a_size'),array_size=inp_as.value;
@@ -38,7 +29,7 @@ function generate_array()
         divs[i]=document.createElement("div");
         cont.appendChild(divs[i]);
         margin_size=0.1;
-        divs[i].style=" margin:0% " + margin_size + "%; background-color:blue; width:" + (100/array_size-(2*margin_size)) + "%; height:" + (div_sizes[i]) + "%;";
+        divs[i].style=" margin:0% " + margin_size + "%; background-color:green; width:" + (100/array_size-(2*margin_size)) + "%; height:" + (div_sizes[i]) + "%;";
     }
 }
 
@@ -92,9 +83,3 @@ function runalgo()
     }
 }
 
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    
-    *****************
-*/
